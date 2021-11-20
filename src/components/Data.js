@@ -20,7 +20,7 @@ const Data = () => {
   return (
     <div>
       <h1>Landen</h1>
-      {worldOfCovid.map(item => (<p key={item.ID}><Link to={`In ${item.Country} zijn er in totaal ${(item.TotalConfirmed).toLocaleString()} gevallen van Covid19 geweest, waarvan ${(item.TotalDeaths).toLocaleString()} mensen overleden zijn. Nieuwe gevallen: ${(item.NewConfirmed).toLocaleString()}.`} className='countries'>{item.Country}</Link></p>))}
+      {worldOfCovid.map(item => (<p key={item.ID}><Link to={`In '${item.Country}' zijn er in totaal ${(item.TotalConfirmed).toLocaleString()} gevallen van Covid19 geweest, waarvan ${(item.TotalDeaths).toLocaleString()} mensen overleden zijn. Nieuwe gevallen: ${(item.NewConfirmed).toLocaleString()}.`} className='countries'>{item.Country}</Link></p>))}
     </div>
   )
 }
