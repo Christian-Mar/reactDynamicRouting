@@ -1,7 +1,7 @@
 const Home = () => {
   return (
     <div>
-      Home
+      <h3>Hoeveel Covid19-gevallen zijn er per land?</h3>
     </div>
   )
 }

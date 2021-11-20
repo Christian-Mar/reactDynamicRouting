@@ -1,0 +1,12 @@
+div {
+  margin-bottom: 3rem;
+}
+
+.link {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: rgb(12, 189, 65);
+  background-color: black;
+  padding: 1rem;
+  border-radius: 10px;
+}

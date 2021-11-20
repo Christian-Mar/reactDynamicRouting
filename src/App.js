@@ -7,15 +7,16 @@ import './App.css';
 
 function App() {
   return (
-    <>
+    <div className='container'>
     <Nav/>
-    <h1>Main page</h1>
+    <h1>Covid19</h1>
     <Router>
       <Home path='/' /> 
       <Data path='data' /> 
-      <CountryDetails path='data/:ID'/>    
+      <CountryDetails path='data/:ID' />  
+      
     </Router>
-    </>
+    </div>
     
 
     
